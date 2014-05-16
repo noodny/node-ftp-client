@@ -1,36 +1,41 @@
 {
-    "name": "ftp-client",
-    "version": "0.1.0",
-    "author": {
-        "name": "Krzysztof Jakubik",
-        "email": "krzysiek.jakubik@gmail.com"
-    },
-    "description": "A wrapper for the node-ftp module",
-    "main": "./lib/client",
-    "engines": {
-        "node": ">=0.8.0"
-    },
-    "dependencies": {
-        "ftp": "~0.3.6"
-    },
-    "keywords": [
-        "ftp",
-        "client",
-        "transfer"
-    ],
-    "licenses": [
-        {
-            "type": "MIT",
-            "url": "http://github.com/noodny/node-ftp-client/raw/master/LICENSE"
-        }
-    ],
-    "repository": {
-        "type": "git",
-        "url": "http://github.com/noodny/node-ftp-client.git"
-    },
-    "readmeFilename": "README.md",
-    "bugs": {
-        "url": "https://github.com/noodny/node-ftp-client/issues"
-    },
-    "homepage": "https://github.com/noodny/node-ftp-client"
+  "name": "ftp-client",
+  "version": "0.1.1",
+  "author": {
+    "name": "Krzysztof Jakubik",
+    "email": "krzysiek.jakubik@gmail.com"
+  },
+  "description": "A wrapper for the node-ftp module",
+  "main": "./lib/client",
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "dependencies": {
+    "ftp": "~0.3.6"
+  },
+  "keywords": [
+    "ftp",
+    "client",
+    "transfer"
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/noodny/node-ftp-client/raw/master/LICENSE"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/noodny/node-ftp-client.git"
+  },
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/noodny/node-ftp-client/issues"
+  },
+  "homepage": "https://github.com/noodny/node-ftp-client",
+  "devDependencies": {
+    "lodash": "~2.4.1",
+    "glob": "~3.2.9",
+    "async": "~0.8.0"
+  }
 }
